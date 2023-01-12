@@ -27,10 +27,8 @@ if (Serial.available() > 0)
    digitalWrite(outPin2,HIGH); 
    digitalWrite(outPin3,HIGH); 
    digitalWrite(outPin4,LOW);
-   
-    
  } 
- else if (bt == 'F')       //move forward 
+ else if (bt == 'F')    //move forward 
  { 
    digitalWrite(outPin1,HIGH); 
    digitalWrite(outPin2,LOW); 
